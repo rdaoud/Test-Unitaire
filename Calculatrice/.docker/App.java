@@ -14,7 +14,7 @@ public class App {
 		    int b = sc.nextInt();
 
 		    System.out.println("1) Addition\n2)Soustraction\n3) Multiplication \n4) Division");
-		    System.out.println("Choisissez le calcul que vous voulez effectuer par son numéro : ");
+		    System.out.println("Choisissez le calcul que vous voulez effectuer par son numero : ");
 		    Scanner sca = new Scanner(System.in); 
 		    int op = sca.nextInt();
 

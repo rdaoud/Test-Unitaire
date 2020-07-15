@@ -1,9 +1,10 @@
 FROM openjdk:8
 
-WORKDIR /rep
+COPY . /usr/src/myapp
 
-COPY ././ rep
+WORKDIR /usr/src/myapp
 
-CMD javac -g rep
+RUN javac App.java
 
+CMD ["java", "App"]
 
