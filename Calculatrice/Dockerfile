@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:latest
 
 COPY . /usr/src/myapp
 

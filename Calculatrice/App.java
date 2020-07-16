@@ -38,7 +38,7 @@ public class App {
 		*/
 		    
 		
-		Test test = new Test();
+		CalculatriceTest test = new CalculatriceTest();
 		test.testAdd();
 		test.testSub();
 		test.testMul();
