@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class TestUser extends TestCase
+class UserTest extends TestCase
 {
 
     private $user;
@@ -21,7 +21,7 @@ class TestUser extends TestCase
         $user->setLastname('');
         $this->assertEquals(false, $user->isValid());
 
-        $user->setLastname('lol');
+        $user->setLastname('Ryan');
         $this->assertEquals(true, $user->isValid());
     }
 
@@ -33,7 +33,7 @@ class TestUser extends TestCase
         $user->setFirstname('');
         $this->assertEquals(false, $user->isValid());
 
-        $user->setFirstname('lol');
+        $user->setFirstname('Daoud');
         $this->assertEquals(true, $user->isValid());
     }
 
@@ -60,7 +60,7 @@ class TestUser extends TestCase
         $user->setEmail('test');
         $this->assertEquals(false, $user->isValid());
 
-        $user->setEmail('joshue@gmail.com');
+        $user->setEmail('ryan@gmail.com');
         $this->assertEquals(true, $user->isValid());
     }
 
